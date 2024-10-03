@@ -1,0 +1,17 @@
+git clone https://github.com/Dark-Kirito/tarea2-videojuegos.git
+cd tarea2-videojuegos
+
+git checkout -b master
+git checkout -b materia 
+
+echo "Programacion_de_videojuegos" > materia.txt
+git add materia.txt
+git commit -m 
+git push origin materia
+
+git checkout master
+
+echo "Pedro_Pablo_Ramos" > nombre.txt
+git add nombre.txt
+git commit -m 
+git push origin master
